@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AKSH // SHINOBI PORTFOLIO</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Zen+Dots&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- LOADER -->
+    <div class="loader">
+        <div class="loader-symbol">卍</div>
+        <div class="loader-text">ENTERING SHINOBI WORLD...</div>
+        <div class="loader-line">
+            <span></span>
+        </div>
+    </div>
+
+
+    <!-- CUSTOM CURSOR -->
+    <div class="cursor"></div>
+    <div class="cursor-ring"></div>
+
+
+    <!-- CHAKRA PARTICLES -->
+    <canvas id="chakraCanvas"></canvas>
+
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+
+        <a href="#home" class="logo">
+            AKSH<span>//</span>
+        </a>
+
+        <nav>
+            <a href="#home">HOME</a>
+            <a href="#about">SHINOBI</a>
+            <a href="#missions">MISSIONS</a>
+            <a href="#archive">ARCHIVE</a>
+            <a href="#characters">CHARACTERS</a>
+            <a href="#watch">UNIVERSE</a>
+        </nav>
+
+        <button class="menu-btn">
+            <span></span>
+            <span></span>
+        </button>
+
+    </header>
+
+
+    <!-- HERO -->
+    <main>
+
+        <section id="home" class="hero">
+
+            <div class="hero-bg"></div>
+
+            <div class="moon"></div>
+
+            <div class="cloud cloud-one"></div>
+            <div class="cloud cloud-two"></div>
+            <div class="cloud cloud-three"></div>
+
+            <div class="hero-content">
+
+                <div class="hero-small">
+                    <span></span>
+                    DIGITAL SHINOBI • DEVELOPER • CREATOR
+                </div>
+
+                <h1>
+                    AKSH
+                    <strong>UZUMAKI</strong>
+                </h1>
+
+                <p class="hero-description">
+                    Turning imagination into digital experiences.
+                    Code is my chakra. The browser is my battlefield.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#missions" class="btn primary">
+                        VIEW MISSIONS
+                        <span>↗</span>
+                    </a>
+
+                    <a href="#about" class="btn secondary">
+                        ENTER MY WORLD
+                    </a>
+                </div>
+
+            </div>
+
+
+            <!-- CHARACTER -->
+            <div class="character">
+
+                <div class="character-aura"></div>
+
+                <div class="character-body">
+
+                    <div class="head">
+                        <div class="hair"></div>
+
+                        <div class="headband">
+                            <span>✦</span>
+                        </div>
+
+                        <div class="face">
+                            <div class="eye left-eye"></div>
+                            <div class="eye right-eye"></div>
+
+                            <div class="whisker w1"></div>
+                            <div class="whisker w2"></div>
+                            <div class="whisker w3"></div>
+
+                            <div class="mouth"></div>
+                        </div>
+                    </div>
+
+                    <div class="neck"></div>
+
+                    <div class="jacket">
+                        <div class="jacket-left"></div>
+                        <div class="jacket-right"></div>
+
+                        <div class="chakra-symbol">卍</div>
+                    </div>
+
+                    <div class="arm arm-left"></div>
+                    <div class="arm arm-right"></div>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-scroll">
+                <span>SCROLL TO BEGIN</span>
+                <div class="scroll-line"></div>
+            </div>
+
+
+            <div class="hero-tag">
+                <span>01</span>
+                <div></div>
+                THE WILL OF CODE
+            </div>
+
+        </section>
+
+
+
+        <!-- ABOUT -->
+        <section id="about" class="about section">
+
+            <div class="section-number">02</div>
+
+            <div class="section-heading">
+                <p>SHINOBI PROFILE</p>
+                <h2>THE ONE WHO<br><span>BUILDS.</span></h2>
+            </div>
+
+
+            <div class="profile-grid">
+
+                <div class="profile-card reveal">
+
+                    <div class="card-top">
+                        <span>SHINOBI DATABASE</span>
+                        <span>NO. 001</span>
+                    </div>
+
+                    <div class="profile-avatar">
+                        <div class="avatar-glow"></div>
+
+                        <div class="avatar">
+                            A
+                        </div>
+                    </div>
+
+                    <h3>AKSH</h3>
+
+                    <p class="rank">
+                        DIGITAL SHINOBI
+                    </p>
+
+                    <div class="profile-stats">
+
+                        <div>
+                            <small>RANK</small>
+                            <strong>S+</strong>
+                        </div>
+
+                        <div>
+                            <small>CHAKRA</small>
+                            <strong>∞</strong>
+                        </div>
+
+                        <div>
+                            <small>MISSIONS</small>
+                            <strong>20+</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="about-text reveal">
+
+                    <span class="eyebrow">MY NINJA WAY</span>
+
+                    <h3>
+                        I DON'T JUST
+                        <span>WRITE CODE.</span>
+                        I BUILD WORLDS.
+                    </h3>
+
+                    <p>
+                        I'm a developer obsessed with creating websites
+                        that feel alive. From interface design to
+                        interactive experiences, I combine technology,
+                        animation and creativity.
+                    </p>
+
+                    <p>
+                        Every project is another mission.
+                        Every bug is another battle.
+                        Every finished website is another scroll added
+                        to my shinobi archive.
+                    </p>
+
+
+                    <div class="skills">
+
+                        <div class="skill">
+                            <span>HTML</span>
+                            <div class="skill-bar">
+                                <i style="width:95%"></i>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <span>CSS</span>
+                            <div class="skill-bar">
+                                <i style="width:92%"></i>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <span>JAVASCRIPT</span>
+                            <div class="skill-bar">
+                                <i style="width:85%"></i>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <span>UI / UX</span>
+                            <div class="skill-bar">
+                                <i style="width:90%"></i>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- CHAKRA BREAK -->
+        <section class="chakra-break">
+
+            <div class="chakra-ring ring-one"></div>
+            <div class="chakra-ring ring-two"></div>
+            <div class="chakra-ring ring-three"></div>
+
+            <div class="chakra-text">
+                <span>THE</span>
+                <strong>WILL</strong>
+                <span>OF</span>
+                <strong>CODE</strong>
+            </div>
+
+        </section>
+
+
+
+        <!-- MISSIONS -->
+        <section id="missions" class="missions section">
+
+            <div class="section-number">03</div>
+
+            <div class="section-heading">
+                <p>MISSION ARCHIVE</p>
+                <h2>MY <span>BATTLES.</span></h2>
+            </div>
+
+
+            <div class="mission-list">
+
+
+                <article class="mission reveal">
+
+                    <div class="mission-rank">
+                        <span>S</span>
+                        RANK
+                    </div>
+
+                    <div class="mission-info">
+
+                        <span>MISSION 001</span>
+
+                        <h3>AKSH BROWSER</h3>
+
+                        <p>
+                            A custom desktop browser experience
+                            engineered with Electron and JavaScript.
+                        </p>
+
+                        <div class="tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                            <span>ELECTRON</span>
+                        </div>
+
+                    </div>
+
+                    <div class="mission-arrow">
+                        ↗
+                    </div>
+
+                </article>
+
+
+                <article class="mission reveal">
+
+                    <div class="mission-rank">
+                        <span>A</span>
+                        RANK
+                    </div>
+
+                    <div class="mission-info">
+
+                        <span>MISSION 002</span>
+
+                        <h3>DEV.STUDIO</h3>
+
+                        <p>
+                            A cinematic developer studio website
+                            focused on modern UI and motion.
+                        </p>
+
+                        <div class="tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JAVASCRIPT</span>
+                            <span>GSAP</span>
+                        </div>
+
+                    </div>
+
+                    <div class="mission-arrow">
+                        ↗
+                    </div>
+
+                </article>
+
+
+                <article class="mission reveal">
+
+                    <div class="mission-rank">
+                        <span>B</span>
+                        RANK
+                    </div>
+
+                    <div class="mission-info">
+
+                        <span>MISSION 003</span>
+
+                        <h3>WEATHER SHINOBI</h3>
+
+                        <p>
+                            A glassmorphic weather dashboard with
+                            animated weather states.
+                        </p>
+
+                        <div class="tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>API</span>
+                            <span>JS</span>
+                        </div>
+
+                    </div>
+
+                    <div class="mission-arrow">
+                        ↗
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ARCHIVE -->
+        <section id="archive" class="archive section">
+
+            <div class="section-number">04</div>
+
+            <div class="section-heading">
+                <p>SHINOBI ARCHIVE</p>
+                <h2>ENTER THE <span>WORLD.</span></h2>
+            </div>
+
+
+            <div class="archive-grid">
+
+                <div class="archive-card big reveal">
+                    <div class="archive-bg characters-bg"></div>
+
+                    <div class="archive-content">
+                        <span>01</span>
+                        <h3>CHARACTERS</h3>
+                        <p>Heroes, villains and legendary shinobi.</p>
+                        <button>EXPLORE ↗</button>
+                    </div>
+                </div>
+
+
+                <div class="archive-card reveal">
+                    <div class="archive-bg villages-bg"></div>
+
+                    <div class="archive-content">
+                        <span>02</span>
+                        <h3>VILLAGES</h3>
+                        <p>Explore the hidden nations.</p>
+                        <button>EXPLORE ↗</button>
+                    </div>
+                </div>
+
+
+                <div class="archive-card reveal">
+                    <div class="archive-bg jutsu-bg"></div>
+
+                    <div class="archive-content">
+                        <span>03</span>
+                        <h3>JUTSU</h3>
+                        <p>Techniques that changed the battlefield.</p>
+                        <button>EXPLORE ↗</button>
+                    </div>
+                </div>
+
+
+                <div class="archive-card reveal">
+                    <div class="archive-bg clans-bg"></div>
+
+                    <div class="archive-content">
+                        <span>04</span>
+                        <h3>CLANS</h3>
+                        <p>Bloodlines and legendary abilities.</p>
+                        <button>EXPLORE ↗</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+     NARUTO CHARACTERS
+========================= -->
+
+<section id="characters" class="characters section">
+
+    <div class="section-number">05</div>
+
+    <div class="section-heading">
+        <p>SHINOBI DATABASE</p>
+        <h2>LEGENDS OF THE <span>WORLD.</span></h2>
+    </div>
+
+    <div class="characters-intro reveal">
+        <p>
+            The warriors, leaders and legends who shaped
+            the shinobi world.
+        </p>
+    </div>
+
+
+    <div class="characters-grid">
+
+
+        <!-- NARUTO -->
+        <article class="character-card reveal">
+
+            <div class="character-image">
+                <img
+                    src="Naruto.png"
+                    alt="Naruto Uzumaki"
+                >
+
+                <div class="character-overlay"></div>
+
+                <div class="character-rank">
+                    S+
+                </div>
+            </div>
+
+            <div class="character-info">
+
+                <div>
+                    <small>HIDDEN LEAF</small>
+
+                    <h3>NARUTO UZUMAKI</h3>
+                </div>
+
+                <span>01</span>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- SASUKE -->
+        <article class="character-card reveal">
+
+            <div class="character-image">
+
+                <img
+                    src="Sasuke-removebg-preview.png"
+                    alt="Sasuke Uchiha"
+                >
+
+                <div class="character-overlay"></div>
+
+                <div class="character-rank">
+                    S+
+                </div>
+
+            </div>
+
+            <div class="character-info">
+
+                <div>
+                    <small>UCHIHA CLAN</small>
+
+                    <h3>SASUKE UCHIHA</h3>
+                </div>
+
+                <span>02</span>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- SAKURA -->
+        <article class="character-card reveal">
+
+            <div class="character-image">
+
+                <img
+                    src="Sakura-removebg-preview.png"
+                    alt="Sakura Haruno"
+                >
+
+                <div class="character-overlay"></div>
+
+                <div class="character-rank">
+                    A+
+                </div>
+
+            </div>
+
+            <div class="character-info">
+
+                <div>
+                    <small>MEDICAL NINJA</small>
+
+                    <h3>SAKURA HARUNO</h3>
+                </div>
+
+                <span>03</span>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- KAKASHI -->
+        <article class="character-card reveal">
+
+            <div class="character-image">
+
+                <img
+                    src="Kakashi-removebg-preview.png"
+                    alt="Kakashi Hatake"
+                >
+
+                <div class="character-overlay"></div>
+
+                <div class="character-rank">
+                    S
+                </div>
+
+            </div>
+
+            <div class="character-info">
+
+                <div>
+                    <small>COPY NINJA</small>
+
+                    <h3>KAKASHI HATAKE</h3>
+                </div>
+
+                <span>04</span>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- ITACHI -->
+        <article class="character-card reveal">
+
+            <div class="character-image">
+
+                <img
+                    src="itachi-removebg-preview.png"
+                    alt="Itachi Uchiha"
+                >
+
+                <div class="character-overlay"></div>
+
+                <div class="character-rank">
+                    S+
+                </div>
+
+            </div>
+
+            <div class="character-info">
+
+                <div>
+                    <small>AKATSUKI</small>
+
+                    <h3>ITACHI UCHIHA</h3>
+                </div>
+
+                <span>05</span>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- MADARA -->
+        <article class="character-card reveal">
+
+            <div class="character-image">
+
+                <img
+                    src="madara-removebg-preview.png"
+                    alt="Madara Uchiha"
+                >
+
+                <div class="character-overlay"></div>
+
+                <div class="character-rank">
+                    S+
+                </div>
+
+            </div>
+
+            <div class="character-info">
+
+                <div>
+                    <small>LEGENDARY SHINOBI</small>
+
+                    <h3>MADARA UCHIHA</h3>
+                </div>
+
+                <span>06</span>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- MINATO -->
+        <article class="character-card reveal">
+
+            <div class="character-image">
+
+                <img
+                    src="minato-removebg-preview.png"
+                    alt="Minato Namikaze"
+                >
+
+                <div class="character-overlay"></div>
+
+                <div class="character-rank">
+                    S+
+                </div>
+
+            </div>
+
+            <div class="character-info">
+
+                <div>
+                    <small>FOURTH HOKAGE</small>
+
+                    <h3>MINATO NAMIKAZE</h3>
+                </div>
+
+                <span>07</span>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- JIRAIYA -->
+        <article class="character-card reveal">
+
+            <div class="character-image">
+
+                <img
+                    src="jireya-removebg-preview.png"
+                    alt="Jiraiya"
+                >
+
+                <div class="character-overlay"></div>
+
+                <div class="character-rank">
+                    S
+                </div>
+
+            </div>
+
+            <div class="character-info">
+
+                <div>
+                    <small>LEGENDARY SANNIN</small>
+
+                    <h3>JIRAIYA</h3>
+                </div>
+
+                <span>08</span>
+
+            </div>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+
+        <!-- WATCH -->
+        <section id="watch" class="watch section">
+
+            <div class="watch-background"></div>
+
+            <div class="watch-content reveal">
+
+                <span class="eyebrow">THE SHINOBI UNIVERSE</span>
+
+                <h2>
+                    READY TO
+                    <span>ENTER?</span>
+                </h2>
+
+                <p>
+                    Explore the Naruto universe through
+                    legitimate streaming and official sources.
+                </p>
+
+
+                <div class="watch-cards">
+
+                    <a href="#" class="watch-card">
+                        <span>ANIME</span>
+                        <strong>WATCH SERIES</strong>
+                        <small>OFFICIAL STREAMING</small>
+                        <b>↗</b>
+                    </a>
+
+                    <a href="#" class="watch-card">
+                        <span>DATABASE</span>
+                        <strong>EXPLORE WORLD</strong>
+                        <small>CHARACTERS • JUTSU • CLANS</small>
+                        <b>↗</b>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- CONTACT -->
+        <section class="contact section">
+
+            <div class="contact-symbol">
+                卍
+            </div>
+
+            <p>THE NEXT MISSION AWAITS</p>
+
+            <h2>
+                LET'S BUILD
+                <span>SOMETHING LEGENDARY.</span>
+            </h2>
+
+            <a href="mailto:akshpro01@gmail.com" class="contact-btn">
+                SEND A MESSAGE ↗
+            </a>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-logo">
+            AKSH<span>//</span>
+        </div>
+
+        <p>
+            BUILT WITH CODE, CHAKRA & THE WILL OF FIRE.
+        </p>
+
+        <div class="footer-links">
+            <a href="#">GITHUB</a>
+            <a href="#">LINKEDIN</a>
+            <a href="#">INSTAGRAM</a>
+        </div>
+
+        <small>
+            © 2026 AKSH SHINOBI PORTFOLIO
+        </small>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
